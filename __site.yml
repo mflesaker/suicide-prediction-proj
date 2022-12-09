@@ -1,0 +1,23 @@
+name: "Suicide Outcomes Prediction Site"                                # CHANGE HERE 
+output_dir: "."
+navbar:
+  title: "Home"                             # CHANGE HERE 
+left:
+  - text: "Home"
+icon: fa-home
+href: index.html
+- text: "About"
+icon: fa-user 
+href: about.html
+right:
+  - text: "Contact me"
+icon: fa-envelope-o
+href: mailto:mflesaker@hsph.harvard.edu                    # CHANGE HERE 
+- text: "GitHub"
+icon: fa-github
+href: https://github.com/mflesaker      
+href: https://mflesaker.github.io/suicide-prediction-proj/
+output:
+  html_document:
+  theme: yeti
+highlight: textmate
